@@ -1,8 +1,8 @@
 # 你好，我是樊泽霖 👋
 
-[![从空间体验，到 AI 产品](assets/profile-banner.svg)](https://github.com/fanzelin644-create/echoes-open-source)
+[![从空间体验，到 AI 产品](assets/profile-banner.svg)](https://echoes-three-pi.vercel.app/)
 
-<p align="center"><sub>点击动态横幅，进入 Echoes / 回声</sub></p>
+<p align="center"><sub>点击动态横幅，进入 Echoes / 回声在线体验</sub></p>
 
 从室内设计师转型而来的 AI 产品经理，关注 AI 产品从 0 到 1、Agent 工作流与 AI Coding。
 
