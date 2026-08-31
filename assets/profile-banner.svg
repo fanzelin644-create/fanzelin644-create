@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="420" viewBox="0 0 1000 420" role="img" aria-labelledby="title desc">
+  <title id="title">樊泽霖——从空间体验到 AI 产品</title>
+  <desc id="desc">一张以室内设计图纸为灵感的动态个人主页横幅</desc>
+  <style>
+    :root { color-scheme: light; }
+    .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .mono { font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace; }
+    .grid { stroke: #d9d1c7; stroke-width: 1; opacity: .32; }
+    .plan { fill: none; stroke: #776f67; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 900; stroke-dashoffset: 900; animation: draw 9s ease-in-out infinite; }
+    .plan.delay { animation-delay: .35s; }
+    .path { fill: none; stroke: #b85f43; stroke-width: 2.8; stroke-linecap: round; stroke-dasharray: 7 10; animation: travel 9s linear infinite; }
+    .node { fill: #f6f2ec; stroke: #b85f43; stroke-width: 2; animation: pulse 2.4s ease-in-out infinite; }
+    .n2 { animation-delay: .5s; }
+    .n3 { animation-delay: 1s; }
+    .n4 { animation-delay: 1.5s; }
+    .eyebrow { fill: #8b8177; font-size: 13px; letter-spacing: 2.6px; }
+    .headline { fill: #292724; font-size: 45px; font-weight: 650; letter-spacing: -.6px; }
+    .subhead { fill: #655e57; font-size: 18px; }
+    .tag { fill: #292724; font-size: 12px; letter-spacing: .7px; }
+    .small { fill: #8b8177; font-size: 11px; letter-spacing: 1px; }
+    .accent { fill: #b85f43; }
+    .reveal-1 { opacity: 0; animation: reveal .7s ease-out forwards .15s; }
+    .reveal-2 { opacity: 0; animation: reveal .7s ease-out forwards .38s; }
+    .reveal-3 { opacity: 0; animation: reveal .7s ease-out forwards .65s; }
+    .cta { animation: breathe 2.4s ease-in-out infinite; transform-origin: 168px 340px; }
+    @keyframes draw {
+      0%, 8% { stroke-dashoffset: 900; opacity: .15; }
+      32%, 82% { stroke-dashoffset: 0; opacity: 1; }
+      94%, 100% { stroke-dashoffset: -900; opacity: .12; }
+    }
+    @keyframes travel { to { stroke-dashoffset: -136; } }
+    @keyframes pulse {
+      0%, 100% { r: 5px; opacity: .6; }
+      50% { r: 8px; opacity: 1; }
+    }
+    @keyframes reveal {
+      from { opacity: 0; transform: translateY(7px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes breathe {
+      0%, 100% { opacity: .72; transform: translateX(0); }
+      50% { opacity: 1; transform: translateX(5px); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .plan, .path, .node, .reveal-1, .reveal-2, .reveal-3, .cta { animation: none; opacity: 1; stroke-dashoffset: 0; }
+    }
+  </style>
+
+  <rect width="1000" height="420" rx="22" fill="#f6f2ec"/>
+  <rect x="1" y="1" width="998" height="418" rx="21" fill="none" stroke="#d2c9be" stroke-width="2"/>
+
+  <g aria-hidden="true">
+    <path class="grid" d="M40 42H960M40 82H960M40 122H960M40 162H960M40 202H960M40 242H960M40 282H960M40 322H960M40 362H960"/>
+    <path class="grid" d="M40 42V378M80 42V378M120 42V378M160 42V378M200 42V378M240 42V378M280 42V378M320 42V378M360 42V378M400 42V378M440 42V378M480 42V378M520 42V378M560 42V378M600 42V378M640 42V378M680 42V378M720 42V378M760 42V378M800 42V378M840 42V378M880 42V378M920 42V378M960 42V378"/>
+  </g>
+
+  <rect x="40" y="42" width="490" height="336" rx="15" fill="#f9f6f1" fill-opacity=".93" stroke="#d8d0c6"/>
+  <circle cx="66" cy="67" r="5" fill="#b85f43"/>
+  <circle cx="83" cy="67" r="5" fill="#c9a768"/>
+  <circle cx="100" cy="67" r="5" fill="#66715a"/>
+  <text class="mono small" x="505" y="71" text-anchor="end">PROFILE / 01</text>
+
+  <g class="sans">
+    <text class="eyebrow reveal-1" x="72" y="125">INTERIOR DESIGN × AI PRODUCT</text>
+    <text class="headline reveal-2" x="72" y="184">从空间体验，</text>
+    <text class="headline reveal-2" x="72" y="239">到 AI 产品。</text>
+    <text class="subhead reveal-3" x="74" y="281">审美判断 · 复杂需求拆解 · 多方协同 · 快速落地</text>
+
+    <g transform="translate(72 318)">
+      <rect width="194" height="44" rx="22" fill="#292724"/>
+      <text x="22" y="28" fill="#f8f4ee" font-size="14" font-weight="600">EXPLORE ECHOES</text>
+      <text class="cta" x="166" y="29" fill="#f8f4ee" font-size="20">→</text>
+    </g>
+  </g>
+
+  <g aria-hidden="true">
+    <rect x="564" y="42" width="396" height="336" rx="15" fill="#eee8df" fill-opacity=".92" stroke="#cfc5b9"/>
+    <text class="mono small" x="590" y="72">EXPERIENCE BLUEPRINT / LIVE</text>
+    <circle cx="929" cy="67" r="4" fill="#b85f43" class="node"/>
+
+    <path class="plan" d="M594 102H927V346H594ZM594 210H728V102M728 164H927M815 164V268H927M728 268H815M676 210V346M815 268V346"/>
+    <path class="plan delay" d="M626 128H698V184H626ZM756 190H789V242H756ZM841 194H900V238H841ZM703 292H786V324H703"/>
+    <path class="plan delay" d="M612 231h46v74h-46zM835 289h69v37h-69zM859 102v62"/>
+
+    <path class="path" d="M618 319C649 319 662 285 705 285S750 249 789 249 830 220 867 220 891 181 907 181"/>
+    <circle class="node" cx="618" cy="319" r="5"/>
+    <circle class="node n2" cx="705" cy="285" r="5"/>
+    <circle class="node n3" cx="789" cy="249" r="5"/>
+    <circle class="node n4" cx="907" cy="181" r="5"/>
+
+    <g class="mono tag">
+      <text x="607" y="116">01 OBSERVE</text>
+      <text x="742" y="180">02 DEFINE</text>
+      <text x="829" y="280">03 BUILD</text>
+      <text x="829" y="340" fill="#b85f43">04 ITERATE</text>
+    </g>
+  </g>
+</svg>
