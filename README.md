@@ -17,11 +17,22 @@
 - 🤝 **多方协同推进**：理解不同角色的目标与约束，推动项目从概念走向交付
 - ⚡ **AI 原型落地**：使用 AI Coding 快速验证产品假设，并持续迭代
 
-## 🌟 重点项目
+## 🚀 产品案例
+
+### 🌪️ Hurricane / 飓风
+
+面向室内设计师的 AI 提效工作流平台，把参考图理解、专业提示词与可控生成串成一条清晰的设计路径。
+
+- 读取参考图中的空间结构、视角与透视关系，优先保留关键空间约束
+- 通过 Prompt Agent 补全材质、光影、氛围、摄影语言与画质要求
+- 支持按探索成本选择生成数量，让方案验证更高效、更可控
+- 将室内设计经验转化为产品能力：不替代设计判断，而是缩短表达与验证的路径
+
+🖥️ [查看产品演示](http://47.102.213.94/) <sub>（HTTP 测试环境，请勿提交敏感信息）</sub>
 
 ### 🌌 [Echoes / 回声](https://github.com/fanzelin644-create/echoes-open-source)
 
-一款沉浸式 AI 传统文化解读与连续对话产品。
+个人独立开发的沉浸式 AI 八字命理解读与连续对话产品。
 
 - 以确定性排盘规则为基础，结合大模型生成、规则校验与模板降级
 - 支持分层解读、命运卡、深度报告、连续追问、合盘与大运流年
@@ -29,9 +40,9 @@
 - 完成从产品定位、功能架构和 AI 工作流，到开发、部署与体验迭代的完整闭环
 - 将视觉体验、内容结构与 AI 能力整合为一套连贯的产品体验
 
-🔗 [查看开源代码](https://github.com/fanzelin644-create/echoes-open-source) · 🚀 [在线体验](https://echoes-echoes6.vercel.app)
+🔗 [查看开源代码](https://github.com/fanzelin644-create/echoes-open-source) · 🚀 [在线体验](https://echoes-three-pi.vercel.app/) <sub>（部分网络环境可能需要代理）</sub>
 
-## 🧰 其他项目
+## 🧰 开源工具
 
 ### 📝 [claude-skills](https://github.com/fanzelin644-create/claude-skills)
 
